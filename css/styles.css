@@ -6,8 +6,75 @@ body {
 
 ul {
     list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #FFFFFF;
+
+}
+   
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .company-name {
     color: #4D5AE5;
+}
+
+.company-name-header {
+    color: #2E2F42;
+}
+
+
+.navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+}
+
+.address {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
+
+.hero{
+    background-color: #2E2F42;
+}
+.page-title {
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    font-size: 56px;
+    color: #FFF;
+    text-align: center;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+.company-name-footer {
+    color: #F4F4FD;
+}
+
+.footer-text{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #F4F4FD;
 }

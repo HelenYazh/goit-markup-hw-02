@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -25,12 +25,9 @@ a {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.company-name {
   color: #4d5ae5;
 }
 
@@ -50,6 +47,10 @@ a {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-link {
@@ -116,10 +117,14 @@ a {
 .team-list {
   background-color: #fff;
 }
+.team-text,
+.portfolio-text {
+  font-size: 16px;
+}
 /* #endregion Main */
 
 /* #region Footer */
-footer {
+.footer {
   background-color: #2e2f42;
 }
 .company-name-footer {

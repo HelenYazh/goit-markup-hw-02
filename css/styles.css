@@ -67,7 +67,6 @@ a {
 }
 
 .page-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -117,9 +116,14 @@ a {
 .team-list {
   background-color: #fff;
 }
+
 .team-text,
 .portfolio-text {
   font-size: 16px;
+}
+
+.team-item, .team-text {
+  text-align: center;
 }
 /* #endregion Main */
 
